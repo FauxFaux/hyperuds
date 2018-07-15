@@ -17,3 +17,6 @@ rev = "6ba8e7621d6b7058dda8619dd2831046cc8c250e"
 [patch.crates-io.tokio-io]
 git = "https://github.com/tokio-rs/tokio"
 rev = "6ba8e7621d6b7058dda8619dd2831046cc8c250e"
+
+[dev-dependencies]
+pretty_env_logger = "0.2"
