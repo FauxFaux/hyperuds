@@ -1,0 +1,19 @@
+[package]
+name = "hyperuds"
+version = "0.1.0"
+authors = ["Chris West (Faux) <git@goeswhere.com>"]
+
+[dependencies]
+failure = "0.1"
+futures = "0.1"
+hyper = "0.12"
+tokio-uds = "0.2"
+http = "0.1.7"
+
+[patch.crates-io.tokio-uds]
+git = "https://github.com/tokio-rs/tokio"
+rev = "6ba8e7621d6b7058dda8619dd2831046cc8c250e"
+
+[patch.crates-io.tokio-io]
+git = "https://github.com/tokio-rs/tokio"
+rev = "6ba8e7621d6b7058dda8619dd2831046cc8c250e"
